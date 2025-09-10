@@ -14,7 +14,11 @@
 "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
   "environment": "client",
-
+  "entrypoints": {
+    "btw:addon": [
+      "com.franzy.norainclient.NoRainClientAddon"
+    ]
+      },
   "mixins": [
     "norainclient.mixins.json"
   ],
