@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nrc",
+  "version": "1.0.0",
+  "name": "No Rain Client",
+  "description": "Disables rain rendering client side.",
+  "authors": [
+    "Franzy"
+  ],
+  "contact": {
+    "homepage": "https://legacyfabric.net/",
+    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
+  },
+"license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "client",
+
+  "mixins": [
+    "norainclient.mixins.json"
+  ],
+  "custom": {
+    "btw:addon_prefix": "nrc"
+  },
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.6.4"
+  }
+}
